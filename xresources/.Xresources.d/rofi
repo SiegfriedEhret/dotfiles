@@ -1,0 +1,18 @@
+rofi.auto-select: true
+rofi.fullscreen: true
+rofi.lines: 15
+rofi.opacity: 90
+rofi.padding: 200
+rofi.terminal: urxvt
+rofi.width: 50
+
+! Colors: 'bg',   'fg',   'bgalt', 'hlbg',  'hlfg'
+! normal row
+rofi.color-normal: #393939, #ffffff, #2c2c2c, #ff3399, #ffffff
+! urgent row
+rofi.color-urgent: #393939, #ff3333, #2c2c2c, #ff3399, #ffc39c
+! active row
+rofi.color-active: #393939, #ff3399, #2c2c2c, #ff3399, #205171
+! window
+rofi.color-window: #393939, #393939, #ff3399
+

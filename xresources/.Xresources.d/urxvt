@@ -1,0 +1,88 @@
+!URxvt.font: xft:bitsream:size=8
+!URxvt.font: xft:inconsolata:size=10
+URxvt.font: \
+  xft:monospace:size=10,\
+  xft:Symbola:size=10
+
+! Scrollbar
+URxvt*saveLines: 10000
+URxvt.scrollStyle: rxvt
+URxvt.scrollBar: false
+
+URxvt.perl-ext-common: default,clipboard,font-size,url-select
+URxvt.url-launcher: /usr/bin/chromium
+URxvt.matcher.button: 1
+
+! extensions -> clipboard (requires xsel)
+! https://github.com/muennich/urxvt-perls
+URxvt.keysym.C-C: perl:clipboard:copy
+URxvt.keysym.C-V: perl:clipboard:paste
+
+URxvt.keysym.C-Up:     perl:font-size:increase
+URxvt.keysym.C-Down:   perl:font-size:decrease
+URxvt.keysym.C-S-Up:   perl:font-size:incglobal
+URxvt.keysym.C-S-Down: perl:font-size:decglobal
+
+! extensions -> url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+
+! Other things
+URxvt*urgentOnBell: true
+
+URxvt*iso14755 : false
+URxvt*iso14755_52 : false
+
+! Color
+urxvt*shading: 10
+URxvt*inheritPixmap: true
+
+URxvt*background:   #282a36
+URxvt*foreground:   #f8f8f2
+
+URxvt*cursorColor:  #f8f8f0
+
+URxvt*colorBD:      #ffb86c
+URxvt*colorUL:      #8be9fd
+
+!black
+URxvt*color0:       #000000
+URxvt*color8:       #000000
+!URxvt*color8:       #1c1c1c
+
+!red
+URxvt*color1:       #ff5555
+URxvt*color9:       #ff5555
+!URxvt*color9:       #ff8888
+
+!green
+URxvt*color2:       #50f7ab
+URxvt*color10:       #50f7ab
+!URxvt*color10:      #b0facb
+
+!yellow
+URxvt*color3:       #f1fa8c
+URxvt*color11:       #f1fa8c
+!URxvt*color11:      #f7fcbd
+
+!blue
+URxvt*color4:       #6272a4
+URxvt*color12:       #6272a4
+!URxvt*color12:      #828fb7
+
+!magenta
+URxvt*color5:       #ff79c6
+URxvt*color13:       #ff79c6
+!URxvt*color13:      #ffacdc
+
+!cyan
+URxvt*color6:       #8be9fd
+URxvt*color14:       #8be9fd
+!URxvt*color14:      #dbf3fe
+
+!white
+URxvt*color7:       #f8f8f2
+URxvt*color15:       #f8f8f2
+!URxvt*color15:      #ffffff
+

@@ -1,0 +1,5 @@
+! Take effect immediately
+! xrdb -merge ~/.Xresources
+
+#include ".Xresources.d/urxvt"
+#include ".Xresources.d/rofi"
