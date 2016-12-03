@@ -1,4 +1,3 @@
-rofi.auto-select: true
 rofi.fullscreen: true
 rofi.lines: 15
 rofi.opacity: 90
