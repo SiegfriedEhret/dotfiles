@@ -94,3 +94,4 @@ let g:go_fmt_command = "goimports"
 
 let g:netrw_liststyle=3
 map <leader>k :E<cr>
+
